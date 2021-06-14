@@ -1,4 +1,4 @@
-MPICH_HOME ?= "/workspace/work/gcc/mpich-tofu"
+MPICH_HOME ?= /workspace/work/gcc/mpich-tofu
 
 CC =	$(which gcc)
 LD =	$(which ld)
