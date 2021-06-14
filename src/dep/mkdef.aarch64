@@ -9,7 +9,7 @@ INCLUDES = -I${MPICH_HOME}/utf/tool/new-sim-utofu/include -I/opt/pmix/3.1.5
 
 #LDFLAGS = -ltofutop -ltofucom -L/opt/FJSVxos/devkit/aarch64/rfs/usr/lib/FJSVtcs/ple/lib64 -lpmix
 #LDFLAGS = -ltofutop -ltofucom -L$(HOME)/riken-mpich -lpmix
-LDFLAGS = -L${MPICH_HOME}/utf/tool/new-sim-utofu/x86_64/lib -ltofutop -ltofucom -lpmix
+LDFLAGS = -L${MPICH_HOME}/utf/tool/new-sim-utofu/aarch64/lib -ltofutop -ltofucom -lpmix
 
 MPICC = $(MPICH_HOME)/bin/mpicc
 
